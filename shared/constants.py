@@ -1,3 +1,7 @@
-TXT_FILE = 'data/pride_and_prejudice.txt'
+import os
+
+TXT_FILE = os.path.join('data', 'pnp.txt')
+JSON_CHARACTERS = os.path.join('data', 'pnp_characters.json')
+
 PUNCTUATION = '.;,-“’”:?—‘!()_'
-CHAPTER_LINE = r'(?i)^\s*CHAPTER\s*[IVXLCDM]+[\s.]*$'
+PATTERN_CHAPTER_LINE = r"(?i)\s*CHAPTER\s*[IVXLCDM]+[\s.]*"
