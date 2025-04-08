@@ -1,7 +1,8 @@
 import os
 
-TXT_FILE = os.path.join('data', 'pnp.txt')
-JSON_CHARACTERS = os.path.join('data', 'pnp_characters.json')
+TXT_PNP = os.path.join('data', 'pnp.txt')
+JSON_CHARACTERS_PNP = os.path.join('data', 'pnp_characters.json')
+DIR_HP = os.path.join('data', 'hp')
 
 PUNCTUATION = '.;,-“’”:?—‘!()_'
-PATTERN_CHAPTER_LINE = r"(?i)\s*CHAPTER\s*[IVXLCDM]+[\s.]*"
+PATTERN_CHAPTER_LINE = r"\s*CHAPTER\s*\d{1,2}\s*"
