@@ -1,5 +1,6 @@
 # Custom
 hp*.txt
+models/spacy/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
