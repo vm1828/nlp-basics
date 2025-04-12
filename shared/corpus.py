@@ -39,6 +39,13 @@ class Book:
         ]
         return chapters
 
+    @property
+    def text(self):
+        chapters = []
+        for chapter in self.chapters:
+            chapters.append(chapter.text)
+        return ' '.join(chapters)
+
 
 class Corpus:
 

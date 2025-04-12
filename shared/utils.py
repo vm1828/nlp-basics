@@ -1,5 +1,6 @@
 import json
 import re
+from typing import Any
 
 from shared.constants import PUNCTUATION
 
@@ -11,7 +12,7 @@ def remove_punctuation(text: str) -> str:
     return text
 
 
-def load_json(file: str) -> dict | list:
+def load_json(file: str) -> Any:
     with open(file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     return data

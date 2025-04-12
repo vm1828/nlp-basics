@@ -8,6 +8,7 @@ JSON_CHARACTERS_PNP = os.path.join('data', 'pnp_characters.json')
 JSON_CHARACTERS_HP = os.path.join('data', 'hp_characters.json')
 JSON_CHARACTERS_HP_GENERATED = os.path.join(
     'data', 'hp_characters_generated.json')
+JSON_TRAIN_DATA_HP = os.path.join('data', 'hp_train_data.json')
 DIR_PNP = os.path.join('data', 'pnp')
 DIR_HP = os.path.join('data', 'hp')
 DIR_MODELS_SPACY = os.path.join('models', 'spacy')
